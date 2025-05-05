@@ -5,9 +5,14 @@
 *.a
 *.so
 *.dll
+*.h
+*.lib
 
 # Archivos temporales de editor y entorno de desarrollo
 .vscode/
+.vscode/*.json
+.vscode/*.exe
+.vscode/*.log
 
 # Archivos generados por el compilador de MSYS2
 msys2.exe
@@ -20,6 +25,7 @@ mingw*.exe
 c_cpp_properties.json
 tasks.json
 launch.json
+settings.json
 
 # Archivos de backup de editores
 *~
