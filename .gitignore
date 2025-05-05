@@ -10,9 +10,7 @@
 
 # Archivos temporales de editor y entorno de desarrollo
 .vscode/
-.vscode/*.json
-.vscode/*.exe
-.vscode/*.log
+.vscode/*   # Asegura que todos los archivos en .vscode/ sean ignorados
 
 # Archivos generados por el compilador de MSYS2
 msys2.exe
