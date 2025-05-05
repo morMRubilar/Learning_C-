@@ -1,0 +1,26 @@
+# Archivos de compilación de C++
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+
+# Archivos temporales de editor y entorno de desarrollo
+.vscode/
+
+# Archivos generados por el compilador de MSYS2
+msys2.exe
+mingw*.exe
+
+# Archivos de configuración de MSYS2
+*.log
+
+# Archivos de configuraciones locales
+c_cpp_properties.json
+tasks.json
+launch.json
+
+# Archivos de backup de editores
+*~
+*.swp
