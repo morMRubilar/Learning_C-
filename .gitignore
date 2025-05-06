@@ -44,3 +44,4 @@ settings.json
 # Archivos de backup de editores
 *~
 *.swp
+bin/
