@@ -5,19 +5,34 @@
 *.a
 *.so
 *.dll
-*.h
+*.dylib
 *.lib
+*.obj
+*.dSYM
+*.app
+
+# Archivos de pruebas y cobertura de código
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.perf
 
 # Archivos temporales de editor y entorno de desarrollo
+.bin/*
 .vscode/
 .vscode/*   # Asegura que todos los archivos en .vscode/ sean ignorados
+.idea/
+*.user
+*.pro.user
 
 # Archivos generados por el compilador de MSYS2
 msys2.exe
 mingw*.exe
 
 # Archivos de configuración de MSYS2
-*.log
+*.log, *.tmp, *.bak, *.swo, *.Thumbs, *.swp, *.swo, *.swm, *.swp, *.swn, *.swx, *.swz
+*.swp, *.swo, *.swm, *.swx, *.swz, *.swp, *.swo, *.swm, *.swx, *.swz
 
 # Archivos de configuraciones locales
 c_cpp_properties.json
