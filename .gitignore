@@ -19,6 +19,7 @@
 *.perf
 
 # Archivos temporales de editor y entorno de desarrollo
+.bin/
 .bin/*
 .vscode/
 .vscode/*   # Asegura que todos los archivos en .vscode/ sean ignorados
